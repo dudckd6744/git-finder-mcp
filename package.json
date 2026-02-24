@@ -1,0 +1,19 @@
+{
+  "name": "git-finder-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for searching code across multiple git projects using ripgrep",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@vscode/ripgrep": "^1.15.9",
+    "tsx": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
