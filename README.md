@@ -51,6 +51,17 @@ Claude Code에서 자연어로 사용합니다:
 "payment-service 프로젝트 구조 보여줘"
 ```
 
+## 데이터 저장 위치
+
+등록한 프로젝트 목록은 홈 디렉토리에 저장됩니다:
+
+```
+~/.git-finder-mcp/projects.json
+```
+
+MCP 버전이 바뀌거나 재설치해도 데이터가 유지됩니다.
+
+
 ## MCP Tools
 
 | Tool | 설명 |
